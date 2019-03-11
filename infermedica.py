@@ -1,8 +1,8 @@
 import infermedica_api
 import json
 
-app_id = "6007e974"
-app_key = "a7cf8df1a30bd080ea0695b9c006ce9b"
+app_id =  '{get your key from infermedica}'
+app_key = "{get your key from infermedica}" #https://infermedica.com
 api = infermedica_api.API(app_id=app_id, app_key=app_key)
 
 symptoms_list = []
